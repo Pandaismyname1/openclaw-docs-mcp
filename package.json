@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "MCP Server for OpenClaw Docs",
   "type": "module",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
+  "bin": {
+    "openclaw-docs-mcp": "dist/index.js"
+  },
   "scripts": {
     "start": "tsx src/index.ts",
     "build": "tsc",
@@ -21,6 +24,7 @@
   },
   "devDependencies": {
     "@modelcontextprotocol/inspector": "^0.21.1",
+    "@types/jsdom": "^28.0.0",
     "@types/turndown": "^5.0.6",
     "jsdom": "^28.1.0",
     "mcp": "^1.4.2",
