@@ -1,0 +1,19 @@
+# ​openclaw uninstall
+
+# 
+
+[​
+
+](#openclaw-uninstall)
+
+`openclaw uninstall`
+
+Uninstall the gateway service + local data (CLI remains).
+
+Copy
+
+```
+openclaw uninstall
+openclaw uninstall --all --yes
+openclaw uninstall --dry-run
+```

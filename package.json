@@ -1,0 +1,32 @@
+{
+  "name": "openclaw-docs-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server for OpenClaw Docs",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "scrape": "tsx src/scraper.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/inspector": "^0.21.1",
+    "@types/turndown": "^5.0.6",
+    "jsdom": "^28.1.0",
+    "mcp": "^1.4.2",
+    "playwright": "^1.58.2",
+    "tsx": "^4.21.0",
+    "turndown": "^7.2.2",
+    "typescript": "^5.9.3"
+  }
+}
